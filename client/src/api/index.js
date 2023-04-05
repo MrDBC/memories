@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url =  'http://localhost:5000/posts' //'https://memories-ok0f.onrender.com/posts';
+const url =     'https://memories-46ic.onrender.com/posts' //'http://localhost:5000/posts'  
 
 export const fetchAllPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, {...newPost, createdAt: new Date()});
