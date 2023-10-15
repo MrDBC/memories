@@ -7,6 +7,9 @@ import useStyles from './styles'
 import { createPost, updatePost } from "../../actions/posts";
 
 const Form = ({currentId, setCurrentId})=>{
+
+    // console.log('hello');
+
     const classes = useStyles();
     const dispatch = useDispatch();
     const post = useSelector((state)=> (
